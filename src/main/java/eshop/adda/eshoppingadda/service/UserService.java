@@ -7,4 +7,5 @@ public interface UserService {
     User findByEmail(String email);
     User saveUser(User user);
     List<User> getAllUsers();
+    void deleteUser(Long id);
 }
